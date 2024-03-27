@@ -1,14 +1,22 @@
+<h1>My link in bio</h1>
 <style>
   body {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #faeee7;
+    display: flex;
+    justify-content: center;
   }
   .items {
-  display: flex;
+    display: flex;
   flex-direction: column;
   gap: 30px;
   max-width: 640px;
+  flex-grow: 1;
+  }
+  .banner {
+  display: flex;
+  justify-content: center;
   }
   .banner-image {
     width: 128px;
@@ -24,21 +32,31 @@
   }
   .name {
     color: #594a4e;
+    display: flex;
+    justify-content: center;
   }
   .social-icons a {
     color: #33272a;
     text-decoration: none;
   }
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+  }
   .link {
     background-color: #fcb7c7;
+    display: flex;
+    align-items: center;
+    padding: 5px;
   }
   .link a {
     color: #fffffe;
     text-decoration: none;
+    text-align: center;
+    flex-grow:1;
   }
 </style>
 <body>
-  <h1>My link in bio</h1>
   <div class="items">
     <div class="banner">
       <img src="https://images.unsplash.com/photo-1585003387496-7ef0cc60267d?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="profile pic" class="banner-image">
